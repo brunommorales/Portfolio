@@ -175,7 +175,7 @@ body {
 .projects__list {
 	
 	display: grid;
-	grid-template-columns: repeat(2, 26.6%);
+	grid-template-columns: repeat(3, 26.6%);
 	grid-gap: 10%;
 }
 
