@@ -172,11 +172,10 @@ body {
 	margin-bottom: 30px;
 }
 
-.projects__list {
-	
-	display: grid;
-	grid-template-columns: repeat(3, 26.6%);
-	grid-gap: 10%;
+.projects__list {	
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
 }
 
 .project {
